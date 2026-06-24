@@ -1,0 +1,123 @@
+# E-Commerce Sales Performance Analysis & Statistical Validation
+
+## Executive Summary
+
+This project analyzes customer purchasing behavior using an E-Commerce sales dataset. The objective is to identify key business insights, validate findings through statistical testing, and provide data-driven recommendations to improve sales performance and customer engagement.
+
+---
+
+## Business Problem
+
+Businesses often struggle to understand customer purchasing patterns, top-performing product categories, and factors influencing revenue generation. This analysis aims to uncover meaningful insights that can support strategic decision-making.
+
+---
+
+## Dataset Overview
+
+* Total Records: 1000+
+* Features:
+
+  * Order ID
+  * Customer ID
+  * Gender
+  * Age
+  * City
+  * Product Category
+  * Purchase Amount
+  * Order Date
+
+---
+
+## Methodology
+
+### Data Preparation
+
+* Imported dataset using Pandas.
+* Checked for missing values and inconsistencies.
+* Converted date columns into datetime format.
+
+### Exploratory Data Analysis
+
+* Sales by Category
+* Sales by City
+* Age Distribution Analysis
+* Monthly Sales Trend
+* Gender Spending Analysis
+
+### Statistical Validation
+
+A Two-Sample Independent T-Test was performed to evaluate whether spending behavior differs significantly between male and female customers.
+
+#### Null Hypothesis (H0)
+
+There is no significant difference in average purchase amount between male and female customers.
+
+#### Alternative Hypothesis (H1)
+
+There is a significant difference in average purchase amount between male and female customers.
+
+---
+
+## Key Findings
+
+### Category Performance
+
+Electronics generated the highest revenue among all product categories, indicating strong customer demand.
+
+### Geographic Analysis
+
+Major metropolitan cities contributed a significant portion of overall sales.
+
+### Customer Demographics
+
+The age group between 25 and 35 years represented the largest share of customers.
+
+### Sales Trend
+
+Monthly sales analysis revealed consistent purchasing activity with identifiable growth opportunities during peak periods.
+
+### Statistical Findings
+
+* T-Statistic: 2.9552
+* P-Value: 0.00847
+
+Since the p-value is less than 0.05, the null hypothesis is rejected.
+
+---
+
+## Business Recommendations
+
+1. Increase marketing investment in high-performing product categories.
+2. Launch targeted campaigns for high-value customer segments.
+3. Strengthen customer retention programs in top-performing cities.
+4. Use personalized recommendations to increase customer lifetime value.
+5. Continuously monitor purchasing trends through data-driven dashboards.
+
+---
+
+## Conclusion
+
+The analysis demonstrates the value of data-driven decision-making in understanding customer behavior and improving business performance. Statistical validation confirms that spending patterns differ across customer segments, providing opportunities for targeted marketing strategies and revenue optimization.
+
+---
+
+## Tools & Technologies
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* SciPy
+* VS Code
+* GitHub
+
+---
+
+## Author
+
+Balgopal Khanda
+
+B.Tech (CSE - Data Science)
+
+GITA Autonomous College, Bhubaneswar
